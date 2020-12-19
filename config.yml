@@ -42,6 +42,8 @@ learning_config:
       - sm_train.tsv
     eval_paths:
       - sm_dev.tsv
+    test_paths:
+      - sm_test.tsv
     tfrecords_dir: null
 
   optimizer_config:
