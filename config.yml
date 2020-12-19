@@ -39,9 +39,9 @@ learning_config:
 
   dataset_config:
     train_paths:
-      - /cv-corpus-6.0-2020-12-11/ar/train.tsv
+      - sm_train.tsv
     eval_paths:
-      - /cv-corpus-6.0-2020-12-11/ar/dev.tsv
+      - sm_dev.tsv
     tfrecords_dir: null
 
   optimizer_config:
